@@ -4,6 +4,7 @@
   "description": "Calendly API with express",
   "main": "src/index.js",
   "scripts": {
+    "build": "ncc build ./src/index.js -o dist",
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
     "seed:init": "node scripts/init-data.js",
@@ -16,6 +17,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@vercel/ncc": "^0.36.0",
     "eslint": "^8.30.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier": "4.2.1",
