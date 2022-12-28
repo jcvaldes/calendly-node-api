@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "build": "ncc build ./src/index.js -o dist",
+    "prod": "node ./dist/index.js",
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
     "seed:init": "node scripts/init-data.js",
