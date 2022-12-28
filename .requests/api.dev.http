@@ -1,0 +1,9 @@
+### Generate Slots
+POST http://localhost:3002/api/v1/availability
+Content-Type: application/json
+
+{
+  "scheduleId":"63aca46261838c4821959d62",
+  "date":"2023-01-02",
+  "timezone":"America/Argentina/Buenos_Aires"
+}
